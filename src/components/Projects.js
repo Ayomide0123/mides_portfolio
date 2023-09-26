@@ -4,14 +4,14 @@ import movieBox from '../assets/projects/movieBox.png';
 import dndApp from '../assets/projects/dndApp.png';
 
 
-const Work = () => {
+const Project = () => {
   
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='project' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#C2FFCF]'>Work</p>
-          <p className='py-6'>" Check out some of my recent work</p>
+          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#C2FFCF]'>Projects</p>
+          <p className='py-6'>" Check out some of my recent projects</p>
         </div>
 
         {/* container for projects */}
@@ -87,4 +87,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Project;
